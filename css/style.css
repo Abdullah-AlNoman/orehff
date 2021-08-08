@@ -1622,8 +1622,12 @@ body.light hr.separator {
   }
 
   .main-img-mobile {
-    width: 230px;
-    height: 230px;
+    width: 175px;
+    height: 175px;
+    border-radius: 50%;
+    border: 4px solid #252525;
+    margin: 0 auto 25px;
+    display: block;
   }
 
   .home .home-details h1 {
@@ -1759,5 +1763,9 @@ body.light hr.separator {
 
   .separator.mt-1 {
     margin-top: 35px !important;
+  }
+
+  .d-sm-block {
+    display: block!important;
   }
 }
