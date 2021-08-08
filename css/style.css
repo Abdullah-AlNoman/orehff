@@ -15,7 +15,7 @@ Version: 1.0
 		- Page Title
 	+ Header
 		- Desktop Navigation
-		- Navigation
+		- Mobile Navigation
 	+ Pages
 		- Homepage
 		+ About
@@ -1132,7 +1132,6 @@ body.light hr.separator {
   transform: scale(1.2);
 }
 
-{
 .blog .post-thumb a img {
   border-radius: 5px 5px 0 0;
   transition: .3s;
@@ -1622,12 +1621,9 @@ body.light hr.separator {
     padding: 0 25px;
   }
 
-    width: 175px;
-    height: 175px;
-    border-radius: 50%;
-    border: 4px solid #252525;
-    margin: 0 auto 25px;
-    display: block;
+  .main-img-mobile {
+    width: 230px;
+    height: 230px;
   }
 
   .home .home-details h1 {
@@ -1764,7 +1760,4 @@ body.light hr.separator {
   .separator.mt-1 {
     margin-top: 35px !important;
   }
-  .d-sm-block {
-  display: block!important;
-}
 }
